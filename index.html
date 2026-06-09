@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Placewalker — Build HTML prototypes fast, with backend rendering included</title>
+  <meta name="description"
+    content="Placewalker is a tiny HTML templating layer. Mark up your prototype with data-set, data-if, data-each and data-isempty — render it in the browser today, on the backend tomorrow. No data? Placeholders show. Nothing breaks.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="brand" aria-label="Placewalker home">
+        <img src="logo.svg" height="30" width="39" />
+        <span class="brand__name">Place<b>Walker</b></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <div class="mainnav">
+          <!-- coming soon -->
+        </div>
+      </nav>
+
+      <div class="header__actions">
+        <a href="https://github.com/PlaceWalker/" target="_blank" class="header__gh" aria-label="GitHub repository">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38l-.01-1.49c-2.01.37-2.53-.5-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.4 7.4 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48l-.01 2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
+          </svg>
+          GitHub
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO + PREVIEW ============ -->
+  <section class="hero" id="top">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="container hero__inner"
+      style="min-height: 80vh; display: flex; flex-direction: column; justify-content: center;">
+      <h1 class="hero__title" style="margin-bottom: 50px;">Coming soon!</h1>
+      <h1 class="hero__title">Build web prototypes fast — with <span class="amber">backend rendering</span> included
+      </h1>
+      <p class="hero__lead">Mark up plain HTML with a handful of <code class="code-inline">data-*</code> attributes. It
+        renders in the browser today and on your backend tomorrow — from the exact same template. No data yet?
+        Placeholders show, and nothing breaks.</p>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#top" class="brand">
+          <img src="logo.svg" height="30" width="39" />
+          <span class="brand__name">Place<b>Walker</b></span>
+        </a>
+        <p>A lightweight HTML templating layer that renders the same markup in the browser and on the backend.</p>
+      </div>
+      <div class="footer__col">
+      </div>
+      <div class="footer__col">
+      </div>
+      <div class="footer__col">
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <span>© 2026 PlaceWalker — MIT licensed.</span>
+        <div class="footer__legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
